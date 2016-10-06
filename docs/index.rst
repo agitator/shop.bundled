@@ -1,0 +1,5 @@
+====================
+shop.bundled
+====================
+
+User documentation
