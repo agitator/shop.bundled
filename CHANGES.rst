@@ -2,6 +2,13 @@ Changelog
 =========
 
 
+1.0.2 (unreleased)
+------------------
+
+- sba optimizations
+  [agitator]
+
+
 1.0.1 (unreleased)
 ------------------
 
