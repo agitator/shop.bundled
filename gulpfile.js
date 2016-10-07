@@ -88,13 +88,14 @@ gulp.task('concatjs', function () {
 gulp.task('jsbundle', function () {
     'use strict';
     remoteSrc([
-        'bluedynamics/bda.plone.shop/master/src/bda/plone/shop/browser/shop.js',
+        'bluedynamics/bdajax/master/src/bdajax/resources/bdajax.js',
         'bluedynamics/bda.plone.cart/master/src/bda/plone/cart/browser/cookie_functions.js',
         'bluedynamics/bda.plone.cart/master/src/bda/plone/cart/browser/cart.js',
         'bluedynamics/bda.plone.checkout/master/src/bda/plone/checkout/browser/checkout.js',
         'bluedynamics/bda.plone.discount/master/src/bda/plone/discount/browser/discount.js',
         'bluedynamics/bda.plone.orders/master/src/bda/plone/orders/browser/resources/qrcode.js',
-        'bluedynamics/bda.plone.orders/master/src/bda/plone/orders/browser/resources/orders.js'
+        'bluedynamics/bda.plone.orders/master/src/bda/plone/orders/browser/resources/orders.js',
+        'bluedynamics/bda.plone.shop/master/src/bda/plone/shop/browser/shop.js'
     ], {
         base: 'https://raw.githubusercontent.com/'
     })
@@ -108,10 +109,12 @@ gulp.task('jsbundle', function () {
 gulp.task('cssbundle', function () {
     'use strict';
     remoteSrc([
+        'bluedynamics/bdajax/master/src/bdajax/resources/bdajax.css',
         'bluedynamics/bda.plone.cart/master/src/bda/plone/cart/browser/cart_p5.css',
         'bluedynamics/bda.plone.checkout/master/src/bda/plone/checkout/browser/checkout_p5.css',
         'bluedynamics/bda.plone.discount/master/src/bda/plone/discount/browser/discount_p5.css',
         'bluedynamics/bda.plone.payment/master/src/bda/plone/payment/resources/payment_p5.css',
+        'bluedynamics/bda.plone.orders/master/src/bda/plone/orders/browser/resources/orders_p5.css',
         'bluedynamics/bda.plone.shop/master/src/bda/plone/shop/browser/shop_p5.css'
     ], {
         base: 'https://raw.githubusercontent.com/'
