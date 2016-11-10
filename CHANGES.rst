@@ -2,6 +2,13 @@ Changelog
 =========
 
 
+1.0.3 (unreleased)
+------------------
+
+- added bdajax & datatables
+  [agitator]
+
+
 1.0.2 (unreleased)
 ------------------
 

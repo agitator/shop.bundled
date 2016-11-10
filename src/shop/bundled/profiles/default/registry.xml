@@ -7,6 +7,10 @@
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
   </records>
+  <records prefix="plone.bundles/bdajax-jquerytools-overlay"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="enabled">False</value>
+  </records>
   <records prefix="plone.bundles/cookie-functions"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
@@ -31,6 +35,10 @@
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
   </records>
+  <records prefix="plone.bundles/datatables"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="enabled">False</value>
+  </records>
   <records prefix="plone.bundles/bda-plone-orders"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
@@ -46,7 +54,7 @@
     <value key="jscompilation">++resource++shop/shop-bundle.js</value>
     <value key="csscompilation">++resource++shop/shop-bundle.css</value>
     <value key="compile">False</value>
-    <value key="depends">bdajax,datatables</value>
+    <!-- <value key="depends">bdajax,datatables</value> -->
     <!-- <value key="merge_with">default</value> -->
   </records>
 
