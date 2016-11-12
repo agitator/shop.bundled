@@ -2,6 +2,13 @@ Changelog
 =========
 
 
+1.0.4 (unreleased)
+------------------
+
+- use rev of cart.js instead of master
+  [agitator]
+
+
 1.0.3 (unreleased)
 ------------------
 

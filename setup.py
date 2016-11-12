@@ -14,7 +14,7 @@ long_description = '\n\n'.join([
 
 setup(
     name='shop.bundled',
-    version='1.0.3',
+    version='1.0.4',
     description="An add-on for Plone",
     long_description=long_description,
     # Get more from https://pypi.python.org/pypi?%3Aaction=list_classifiers
