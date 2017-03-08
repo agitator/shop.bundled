@@ -98,7 +98,8 @@ gulp.task('jsbundle', function () {
         'collective/collective.js.datatables/4.1.2/collective/js/datatables/resources/media/js/jquery.dataTables.min.js',
         'bluedynamics/bda.plone.orders/master/src/bda/plone/orders/browser/resources/qrcode.js',
         'bluedynamics/bda.plone.orders/master/src/bda/plone/orders/browser/resources/orders.js',
-        'bluedynamics/bda.plone.shop/master/src/bda/plone/shop/browser/shop.js'
+        'bluedynamics/bda.plone.shop/master/src/bda/plone/shop/browser/shop.js',
+        'bluedynamics/bda.plone.productshop/master/src/bda/plone/productshop/browser/resources/productshop.js'
     ], {
         base: 'https://raw.githubusercontent.com/'
     })
@@ -119,7 +120,8 @@ gulp.task('cssbundle', function () {
         'bluedynamics/bda.plone.payment/master/src/bda/plone/payment/resources/payment_p5.css',
         'collective/collective.js.datatables/4.1.2/collective/js/datatables/resources/media/css/jquery.dataTables.min.css',
         'bluedynamics/bda.plone.orders/master/src/bda/plone/orders/browser/resources/orders_p5.css',
-        'bluedynamics/bda.plone.shop/master/src/bda/plone/shop/browser/shop_p5.css'
+        'bluedynamics/bda.plone.shop/master/src/bda/plone/shop/browser/shop_p5.css',
+        'bluedynamics/bda.plone.productshop/master/src/bda/plone/productshop/browser/resources/productshop.css'
     ], {
         base: 'https://raw.githubusercontent.com/'
     })

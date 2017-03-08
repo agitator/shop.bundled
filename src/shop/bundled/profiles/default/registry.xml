@@ -47,6 +47,10 @@
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
   </records>
+  <records prefix="plone.bundles/productshop"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+    <value key="enabled">False</value>
+  </records>
 
   <records prefix="plone.bundles/bda-plone-shop-bundle"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
