@@ -58,7 +58,7 @@
     <value key="jscompilation">++resource++shop/shop-bundle.js</value>
     <value key="csscompilation">++resource++shop/shop-bundle.css</value>
     <value key="compile">False</value>
-    <!-- <value key="depends">bdajax,datatables</value> -->
+    <value key="depends">*</value>
     <!-- <value key="merge_with">default</value> -->
   </records>
 
