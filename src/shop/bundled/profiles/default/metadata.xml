@@ -2,7 +2,7 @@
 <metadata>
   <version>1000</version>
   <dependencies>
-     <dependency>profile-bda.plone.ajax:default</dependency>
-     <dependency>profile-bda.plone.shop:default</dependency>
+     <!-- <dependency>profile-bda.plone.ajax:default</dependency> -->
+     <!-- <dependency>profile-bda.plone.shop:default</dependency> -->
   </dependencies>
 </metadata>

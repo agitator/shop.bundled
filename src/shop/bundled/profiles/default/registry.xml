@@ -3,61 +3,60 @@
           i18n:domain="shop.bundled">
 
 
-  <records prefix="plone.bundles/bdajax"
+  <records prefix="plone.bundles/bdajax" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
-  <records prefix="plone.bundles/bdajax-jquerytools-overlay"
+  <records prefix="plone.bundles/bdajax-jquerytools-overlay" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
-  <records prefix="plone.bundles/cookie-functions"
+  <records prefix="plone.bundles/cookie-functions" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
-  <records prefix="plone.bundles/bda-plone-cart"
+  <records prefix="plone.bundles/bda-plone-cart" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
-  <records prefix="plone.bundles/bda-plone-checkout"
+  <records prefix="plone.bundles/bda-plone-checkout" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
-  <records prefix="plone.bundles/bda-plone-discount"
+  <records prefix="plone.bundles/bda-plone-discount" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
-  <records prefix="plone.bundles/bda-plone-payment"
+  <records prefix="plone.bundles/bda-plone-payment" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
-  <records prefix="plone.bundles/qrcode"
+  <records prefix="plone.bundles/qrcode" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
-  <records prefix="plone.bundles/datatables"
+  <records prefix="plone.bundles/datatables" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
-  <records prefix="plone.bundles/bda-plone-orders"
+  <records prefix="plone.bundles/bda-plone-orders" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
-  <records prefix="plone.bundles/bda-plone-shop"
+  <records prefix="plone.bundles/bda-plone-shop" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">False</value>
   </records>
 
-  <records prefix="plone.bundles/bda-plone-shop-bundle"
+  <records prefix="plone.bundles/bda-plone-shop-bundle" remove="True"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
-    <value key="enabled">True</value>
-    <value key="depends">plone</value>
+  </records>
+
+
+  <records prefix="plone.resources/shop-bundle"
+           interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+    <value key="js">++resource++shop/shop-bundle.js</value>
+    <value key="css">
+      <element>++resource++shop/shop-bundle.css</element>
+    </value>
+  </records>
+
+  <records purge="False" prefix="plone.bundles/plone-legacy" interface="Products.CMFPlone.interfaces.IBundleRegistry">
+    <value key="last_compilation"></value>
     <value key="merge_with">default</value>
-    <value key="jscompilation">++resource++shop/shop-bundle.js</value>
-    <value key="csscompilation">++resource++shop/shop-bundle.css</value>
-    <value key="compile">False</value>
-    <!-- <value key="depends">bdajax,datatables</value> -->
-    <!-- <value key="merge_with">default</value> -->
+    <value key="depends">plone</value>
+    <value key="resources" purge="False">
+      <element>shop-bundle</element>
+    </value>
   </records>
 
 </registry>
