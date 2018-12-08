@@ -21,42 +21,88 @@
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
   </records>
 
-  <records prefix="plone.bundles/cookie-functions"
+  <!-- <records prefix="plone.bundles/cookie-functions"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
+  </records> -->
+
+  <records prefix="plone.bundles/cookie-functions" remove="true"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
   </records>
-  <records prefix="plone.bundles/bda-plone-cart"
+
+  <!-- <records prefix="plone.bundles/bda-plone-cart"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
+  </records> -->
+
+  <records prefix="plone.bundles/bda-plone-cart" remove="true"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
   </records>
-  <records prefix="plone.bundles/bda-plone-checkout"
+
+  <!-- <records prefix="plone.bundles/bda-plone-checkout"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
+  </records> -->
+
+  <records prefix="plone.bundles/bda-plone-checkout" remove="true"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
   </records>
-  <records prefix="plone.bundles/bda-plone-discount"
+
+  <!-- <records prefix="plone.bundles/bda-plone-discount"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
+  </records> -->
+
+  <records prefix="plone.bundles/bda-plone-discount" remove="true"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
   </records>
-  <records prefix="plone.bundles/bda-plone-payment"
+
+  <!-- <records prefix="plone.bundles/bda-plone-payment"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
+  </records> -->
+
+  <records prefix="plone.bundles/bda-plone-payment" remove="true"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
   </records>
-  <records prefix="plone.bundles/qrcode"
+
+  <!-- <records prefix="plone.bundles/qrcode"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
+  </records> -->
+
+  <records prefix="plone.bundles/qrcode" remove="true"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
   </records>
-  <records prefix="plone.bundles/datatables"
+
+  <!-- <records prefix="plone.bundles/datatables"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
+  </records> -->
+
+  <records prefix="plone.bundles/datatables" remove="true"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
   </records>
-  <records prefix="plone.bundles/bda-plone-orders"
+
+  <!-- <records prefix="plone.bundles/bda-plone-orders"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
+  </records> -->
+
+  <records prefix="plone.bundles/bda-plone-orders" remove="true"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
   </records>
-  <records prefix="plone.bundles/bda-plone-shop"
+
+  <!-- <records prefix="plone.bundles/bda-plone-shop"
            interface='Products.CMFPlone.interfaces.IBundleRegistry'>
     <value key="enabled">False</value>
+  </records> -->
+
+  <records prefix="plone.bundles/bda-plone-shop" remove="true"
+           interface='Products.CMFPlone.interfaces.IBundleRegistry'>
   </records>
+
+
 
   <!-- remove old bundle registration -->
   <records prefix="plone.bundles/bda-plone-shop-bundle" remove="true"
