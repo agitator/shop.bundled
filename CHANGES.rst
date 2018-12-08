@@ -2,6 +2,13 @@ Changelog
 =========
 
 
+1.1.1 (unreleased)
+------------------
+
+- registry cleanup
+  [agitator]
+
+
 1.1.0 (unreleased)
 ------------------
 
