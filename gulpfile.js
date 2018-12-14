@@ -92,7 +92,8 @@ gulp.task('jsbundle', function () {
         'bluedynamics/bdajax/master/src/bdajax/resources/bdajax.js',
         'bluedynamics/bdajax/master/src/bdajax/resources/overlay.js',
         'bluedynamics/bda.plone.cart/master/src/bda/plone/cart/browser/cookie_functions.js',
-        'bluedynamics/bda.plone.cart/e3d08414c42c2e1eeef780437085601a268d6897/src/bda/plone/cart/browser/cart.js',
+        'bluedynamics/bda.plone.cart/fa0e1bd9ec78e9f5dcb8251145205d952c0ae28d/src/bda/plone/cart/browser/cart.js',
+        // 'bluedynamics/bda.plone.cart/master/src/bda/plone/cart/browser/cart.js',
         'bluedynamics/bda.plone.checkout/master/src/bda/plone/checkout/browser/checkout.js',
         'bluedynamics/bda.plone.discount/master/src/bda/plone/discount/browser/discount.js',
         'collective/collective.js.datatables/4.1.2/collective/js/datatables/resources/media/js/jquery.dataTables.min.js',
@@ -102,7 +103,7 @@ gulp.task('jsbundle', function () {
     ], {
         base: 'https://raw.githubusercontent.com/'
     })
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(sourcemaps.init())
         .pipe(concat('shop-bundle.js'))
         .pipe(sourcemaps.write('.'))

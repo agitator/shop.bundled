@@ -2,6 +2,20 @@ Changelog
 =========
 
 
+1.1.1 (unreleased)
+------------------
+
+- registry cleanup
+  [agitator]
+
+
+1.1.0 (unreleased)
+------------------
+
+- load async - MANUAL CHANGES AFTER BUNDLE GENERATION!!!
+  [agitator]
+
+
 1.0.4 (unreleased)
 ------------------
 

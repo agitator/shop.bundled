@@ -34,3 +34,4 @@ report.html
 !.travis.yml
 !src/shop
 /node_modules
+.DS_Store
